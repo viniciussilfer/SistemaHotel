@@ -36,7 +36,7 @@ public class TelaLogin extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("ERP - Login");
-        setPreferredSize(new java.awt.Dimension(400, 365));
+        setPreferredSize(new java.awt.Dimension(400, 400));
         setResizable(false);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
