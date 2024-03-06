@@ -63,6 +63,7 @@ public class TelaLogin extends javax.swing.JFrame {
             }
         });
 
+        btnEntrar.setFont(new java.awt.Font("Microsoft YaHei", 1, 14)); // NOI18N
         btnEntrar.setText("Entrar");
         btnEntrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -131,6 +132,8 @@ public class TelaLogin extends javax.swing.JFrame {
     }//GEN-LAST:event_imputSenhaActionPerformed
 
     private void btnEntrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEntrarActionPerformed
+        TelaPrincipal tela = new TelaPrincipal();
+        tela.setVisible(true);
         // TODO add your handling code here:
     }//GEN-LAST:event_btnEntrarActionPerformed
 
